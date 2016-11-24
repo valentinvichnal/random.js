@@ -1,0 +1,12 @@
+{
+  "name": "random.js",
+  "author": "Valentin Vichnal <valentin@vichnal.com>",
+  "description": "Random number generator and utilities",
+  "version": "0.0.0",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": true,
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
