@@ -20,3 +20,6 @@ Returns a random element of the given array or string.
 
 * `Random.hexString(n)`
 Returns a random string of n hexadecimal digits.
+
+### Sources:
+Forked from the Meteor.js v1.4.2 random package with slight modification

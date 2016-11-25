@@ -1,3 +1,5 @@
+// Sources: Forked from the Meteor.js v1.4.2 random package with slight modification
+
 // We use cryptographically strong PRNGs (crypto.getRandomBytes() on the server,
 // window.crypto.getRandomValues() in the browser) when available. If these
 // PRNGs fail, we fall back to the Alea PRNG, which is not cryptographically
