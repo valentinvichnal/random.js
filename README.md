@@ -1,11 +1,15 @@
 # random.js
 Random number generator and utilities
 
+### Use:
 ```
-var Random = require('random.js');
+var Random = require('randjs');
 ```
+
+### Description:
 The random package provides several functions for generating random numbers. It uses a cryptographically strong pseudorandom number generator when possible, but falls back to a weaker random number generator when cryptographically strong randomness is not available (on older browsers or on servers that don't have enough entropy to seed the cryptographically strong generator).
 
+### API:
 * `Random.id([n])`
 Returns a unique identifier, such as "Jjwjg6gouWLXhMGKW", that is likely to be unique in the whole world. The optional argument n specifies the length of the identifier in characters and defaults to 17.
 
